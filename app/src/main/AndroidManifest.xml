@@ -14,6 +14,11 @@
         android:theme="@style/Theme.IBCompsciIA"
         tools:targetApi="31">
         <activity
+            android:name=".AllActivity"
+            android:exported="false"
+            android:label="@string/title_activity_all"
+            android:theme="@style/Theme.IBCompsciIA.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -10,12 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="@string/movie_ranker"
         android:textSize="48sp"
         android:visibility="visible"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="61dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -23,8 +23,9 @@
         android:layout_height="79dp"
         android:text="@string/all"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button7"
@@ -32,8 +33,9 @@
         android:layout_height="79dp"
         android:text="@string/comedy"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="474dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button6"
@@ -41,8 +43,9 @@
         android:layout_height="79dp"
         android:text="@string/adventure"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <Button
         android:id="@+id/button4"
@@ -50,8 +53,9 @@
         android:layout_height="79dp"
         android:text="@string/romance"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button5"
@@ -59,8 +63,9 @@
         android:layout_height="79dp"
         android:text="@string/horror"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button3"
@@ -68,8 +73,9 @@
         android:layout_height="79dp"
         android:text="@string/scifi"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button8"
@@ -77,8 +83,9 @@
         android:layout_height="79dp"
         android:text="@string/drama"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="632dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
         android:id="@+id/button2"
@@ -86,7 +93,8 @@
         android:layout_height="79dp"
         android:text="@string/action"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="158dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
