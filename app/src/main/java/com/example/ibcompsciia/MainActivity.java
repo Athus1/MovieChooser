@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Toast toast = Toast.makeText(this /* MyActivity */, " Yayyy first code", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this /* MyActivity */, "Hello World", Toast.LENGTH_SHORT);
         toast.show();
 
         Button button = (Button) findViewById(R.id.button);
